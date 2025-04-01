@@ -8,7 +8,8 @@
 <body>
     <h1>Žiga Terzič</h1>
     <?php
-        // DB config.        
+        // DB config.       
+        // yet another useful coment
         require_once 'db_config.php'
 
         $conn = new mysqli($servername, $username, $password, $database);
